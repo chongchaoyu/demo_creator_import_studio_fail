@@ -1,0 +1,38 @@
+<Solution>
+  <PropertyGroup Name="hlw_bcl" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="res">
+          <Folder Name="i18n">
+            <Folder Name="zh_CN">
+              <Folder Name="fonts">
+                <TTF Name="han_yi_shu_hun.ttf" />
+              </Folder>
+            </Folder>
+          </Folder>
+          <Folder Name="view">
+            <Folder Name="battle">
+              <PlistImageFolder Image="battle_role.png" PListFile="battle_role.plist" Name=".battle_role_PList.Dir">
+                <PlistImageFile Name="battle_role_angry.png" Key="battle_role_angry.png" />
+                <PlistImageFile Name="battle_role_angry_bg.png" Key="battle_role_angry_bg.png" />
+                <PlistImageFile Name="battle_role_dialog.png" Key="battle_role_dialog.png" />
+                <PlistImageFile Name="battle_role_dialog_arrow_left.png" Key="battle_role_dialog_arrow_left.png" />
+                <PlistImageFile Name="battle_role_dialog_arrow_right.png" Key="battle_role_dialog_arrow_right.png" />
+                <PlistImageFile Name="battle_role_hp.png" Key="battle_role_hp.png" />
+                <PlistImageFile Name="battle_role_hp_bg.png" Key="battle_role_hp_bg.png" />
+                <PlistImageFile Name="battle_role_hp_red.png" Key="battle_role_hp_red.png" />
+                <PlistImageFile Name="battle_role_hp_shade.png" Key="battle_role_hp_shade.png" />
+                <PlistImageFile Name="battle_role_shadow.png" Key="battle_role_shadow.png" />
+              </PlistImageFolder>
+              <Project Name="WidgetRole.csd" Type="Node" />
+              <File Name="WidgetRole.json" />
+              <Project Name="WidgetRoleDialog.csd" Type="Node" />
+              <File Name="WidgetRoleDialog.json" />
+            </Folder>
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
